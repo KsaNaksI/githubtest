@@ -17,7 +17,7 @@ class MyProgram(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        pass
+        self.resize(600, 600)
 
 
 def except_hook(cls, exception, traceback):
